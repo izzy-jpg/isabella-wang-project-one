@@ -234,3 +234,40 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: "raleway";
+  font-size: 46px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home-header {
+  background-image: url(../assets/home-1.jpeg);
+}
+
+.blog-header {
+  background-image: url(../assets/blog-1.jpeg);
+}
+
+.contact-header {
+  background-image: url(../assets/contact-1.jpeg);
+}
