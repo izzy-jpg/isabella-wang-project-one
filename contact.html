@@ -11,7 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/62bbef00a2.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/62bbef00a2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
@@ -20,18 +23,94 @@
         <h1 class="logo">Delicious</h1>
         <nav class="top-nav">
           <ul>
-            <li ><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#recipes">Recipes</a></li>
             <li><a href="#">Nutrition</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li class="cart"><a href="#"><i class="fas fa-shopping-bag"></i><p>2</p></a></li>
-            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            <li class="cart">
+              <a href="#"
+                ><i class="fas fa-shopping-bag"></i>
+                <p>2</p></a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-search"></i></a>
+            </li>
           </ul>
         </nav>
       </div>
+      <!-- /top-nav -->
     </header>
+    <!-- header ends -->
+    <!-- main begins -->
+    <main>
+      <section class="contact-form">
+        <h2>Drop us a line</h2>
+        <form action="#">
+          <div class="contact-name">
+            <input
+              type="text"
+              name="your-name"
+              id="your-name"
+              class="your-name"
+            />Your name
+            <label for="your-name" class="sr-only">Enter your name</label>
+          </div>
+          <!-- /contact-name -->
+          <div class="contact-email">
+            <input
+              type="email"
+              name="your-email"
+              class="your-email"
+              id="your-email"
+            />Your email
+            <label for="your-email" class="sr-only">Enter your email</label>
+          </div>
+          <!-- /contact-email -->
+          <div class="contact-subject">
+            <input
+              type="text"
+              name="subject"
+              class="subject"
+              id="subject"
+            />subject
+            <label for="subject" class="sr-only">Enter your subject</label>
+          </div>
+          <!-- /contact-subject -->
+          <div class="contact-message">
+            <input
+              type="textarea"
+              name="your-message"
+              id="your-message"
+              class="your-message"
+            />Message
+            <label for="your-message" class="sr-only">Enter your message</label>
+          </div>
+          <!-- /contact-message -->
+          <button type="submit" class="send-button">Send message <i class="fas fa-long-arrow-alt-right"></i></button>
+        </form>
+      </section>
+      <!-- /contact-form -->
+      <section class="contact-details">
+        <h2>Contact details</h2>
+        <p>Beetroot water spinach okra water chestnut ricebean pea catsear courgette summer purslane. Water spinach arugula pea tatsoi aubergine spring onion bush tomato kale.</p>
+        <div class="working-hours">
+          <h3>Working hours</h3>
+          <p class="hours"><span class="weekdays">Mon-Fri:</span> 08:00am - 05:30pm</p>
+          <p>Not working on Saturday or Sunday!</p>
+        </div>
+        <!-- /working-hours -->
+        <div class="contact-info">
+          <h3>Contact info</h3>
+          <p>A delicious restaurant <span class="block">Toronto, Ontario</span></p>
+          <p>yum@food.com</p>
+          <p>+1 234 567 8910</p>
+        </div>
+        <!-- /contact-info -->
+      </section>
+    </main>
   </body>
 </html>
