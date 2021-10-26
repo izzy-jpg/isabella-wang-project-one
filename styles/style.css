@@ -241,29 +241,73 @@ html {
   margin: 0 auto;
 }
 
-header {
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-h1 {
-  font-family: "raleway";
-  font-size: 46px;
-  line-height: 24px;
-  letter-spacing: 1.1px;
-  text-transform: uppercase;
-  margin-top: 0;
-}
-
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "raleway";
+}
+
+header a {
+  color: #2e2e2e;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: color 0.4s ease-out;
+  transition: color 0.4s ease-out;
+}
+
+header a:hover,
+header a:focus {
+  color: #64a604;
+}
+header a:hover p,
+header a:focus p {
+  background: #2e2e2e;
+}
+
+h1 {
+  font-size: 46px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+.top-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .home-header {
@@ -276,4 +320,22 @@ a {
 
 .contact-header {
   background-image: url(../assets/contact-1.jpeg);
+}
+
+.cart a {
+  position: relative;
+  font-size: 20px;
+}
+.cart a p {
+  position: absolute;
+  background: #64a604;
+  border-radius: 50%;
+  bottom: -10px;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+  padding-top: 2px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
 }

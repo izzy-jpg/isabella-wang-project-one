@@ -4,23 +4,44 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  font-family: $header-font;
+}
+
+header a{
+  color: $black-two;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.4s ease-out;
+}
+
+header a:hover,
+header a:focus{
+  color: $green;
+  p{
+    background: $black-two;
+  }
 }
 
 h1{
-  font-family: $header-font;
   font-size: 46px;
   line-height: 24px;
   letter-spacing: 1.1px;
   text-transform: uppercase;
   margin-top: 0;
+  padding-left: 3%;
+  padding-top: 3%;
 }
 
-li{
-  list-style: none;
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-a{
-  text-decoration: none;
+.top-nav ul{
+  display: flex;
 }
 
 .home-header{
@@ -34,3 +55,22 @@ a{
 .contact-header{
   background-image: url(../assets/contact-1.jpeg);
 }
+
+.cart a{
+  position: relative;
+  font-size: 20px;
+  p{
+    position: absolute;
+    background: $green;
+    border-radius: 50%;
+    bottom: -10px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    padding-top: 2px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
