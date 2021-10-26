@@ -1,6 +1,12 @@
 @import "setup";
 @import "variables";
 
+body{
+  font-family: $body-font;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
 li{
   list-style: none;
 }
@@ -15,3 +21,4 @@ img{
 }
 
 @import "header";
+@import "footer";

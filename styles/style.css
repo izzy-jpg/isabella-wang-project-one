@@ -241,6 +241,13 @@ html {
   margin: 0 auto;
 }
 
+body {
+  font-family: "lora";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
 li {
   list-style: none;
 }
@@ -261,25 +268,27 @@ header {
   background-size: cover;
   background-position: center;
   font-family: "raleway";
+  color: #2e2e2e;
 }
 
 header a {
-  color: #2e2e2e;
   text-transform: uppercase;
   padding: 10px 20px;
   font-weight: bold;
   font-size: 18px;
   -webkit-transition: color 0.4s ease-out;
   transition: color 0.4s ease-out;
+  color: #2e2e2e;
 }
 
 header a:hover,
 header a:focus {
   color: #64a604;
 }
-header a:hover p,
-header a:focus p {
-  background: #2e2e2e;
+
+header a::after:hover,
+header a::after:focus {
+  background-color: #2e2e2e;
 }
 
 h1 {
@@ -290,6 +299,28 @@ h1 {
   margin-top: 0;
   padding-left: 3%;
   padding-top: 3%;
+}
+
+.cart a {
+  position: relative;
+  font-size: 20px;
+}
+
+.cart a::after {
+  content: "2";
+  position: absolute;
+  background-color: #64a604;
+  border-radius: 50%;
+  bottom: 3px;
+  right: 5px;
+  height: 20px;
+  width: 20px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  -webkit-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
 }
 
 .top-bar {
@@ -322,20 +353,30 @@ h1 {
   background-image: url(../assets/contact-1.jpeg);
 }
 
-.cart a {
-  position: relative;
-  font-size: 20px;
+footer {
+  background: #333333;
+  font-size: 13px;
+  color: #999999;
 }
-.cart a p {
-  position: absolute;
-  background: #64a604;
-  border-radius: 50%;
-  bottom: -10px;
-  right: 10px;
-  height: 20px;
-  width: 20px;
-  padding-top: 2px;
+
+h3 {
+  font-family: "raleway";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
   color: white;
+}
+
+footer .logo {
+  font-size: 36px;
+  color: #64a604;
+}
+
+.polar {
+  color: #64a604;
+}
+
+.copyright {
+  background: #2e2e2e;
   text-align: center;
-  font-size: 12px;
 }
