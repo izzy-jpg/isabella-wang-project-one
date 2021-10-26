@@ -12,16 +12,63 @@ h3{
   color: white;
 }
 
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contact,
+.footer-recent,
+.subscribe{
+  width: 25%;
+}
+
 footer .logo{
   font-size: 36px;
   color: $green;
 }
 
-.polar{
-  color: $green;
+.subscribe form{
+  display: flex;
 }
 
+.subscribe-email{
+  background: lighten($color: $black, $amount: 10);
+  border: none;
+  font-family: $body-font;
+  font-style: italic;
+  color: $brown-grey;
+  padding-left: 5%;
+  height: 40px;
+  display: block;
+  flex-grow: 1;
+}
+
+footer button{
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  background: $green;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.social-media{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.social-media a{
+  color: white;
+  font-size: 14px;
+}
 .copyright{
   background: $black-two;
   text-align: center;
+}
+
+.polar{
+  color: $green;
 }

@@ -237,7 +237,7 @@ html {
 
 .wrapper {
   max-width: 1200px;
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -259,6 +259,10 @@ a {
 img {
   display: block;
   width: 100%;
+}
+
+.block {
+  display: block;
 }
 
 header {
@@ -367,16 +371,76 @@ h3 {
   color: white;
 }
 
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-contact,
+.footer-recent,
+.subscribe {
+  width: 25%;
+}
+
 footer .logo {
   font-size: 36px;
   color: #64a604;
 }
 
-.polar {
-  color: #64a604;
+.subscribe form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subscribe-email {
+  background: #4d4d4d;
+  border: none;
+  font-family: "lora";
+  font-style: italic;
+  color: #999999;
+  padding-left: 5%;
+  height: 40px;
+  display: block;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+footer button {
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  background: #64a604;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-media a {
+  color: white;
+  font-size: 14px;
 }
 
 .copyright {
   background: #2e2e2e;
   text-align: center;
+}
+
+.polar {
+  color: #64a604;
 }
