@@ -449,6 +449,58 @@ h2 {
   margin-left: -30px;
 }
 
+.img-absolute {
+  position: relative;
+  width: 30%;
+}
+
+.about {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .txt-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .txt-container p {
+  text-align: center;
+  color: #999999;
+}
+
+.sticker {
+  position: absolute;
+  width: 40%;
+  top: -40%;
+  right: -15%;
+}
+
+.new-line {
+  display: block;
+}
+
 footer {
   background: #333333;
   font-size: 13px;

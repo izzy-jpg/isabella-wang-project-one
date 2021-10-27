@@ -84,3 +84,37 @@ h2{
   font-size: 30px;
   margin-left: -30px;
 }
+
+.img-absolute{
+  position: relative; 
+  width: 30%;
+}
+
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .txt-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+      text-align: center;
+      color: $brown-grey;
+    }
+  }
+}
+
+.sticker{
+  position: absolute;
+  width: 40%;
+  top: -40%;
+  right: -15%;
+}
+
+.new-line{
+  display: block;
+}
