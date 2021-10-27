@@ -357,17 +357,85 @@ h1 {
   background-image: url(../assets/contact-1.jpeg);
 }
 
+h2 {
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #2e2e2e;
+}
+
+.recipes p {
+  color: #333333;
+  width: 70%;
+  text-align: center;
+  padding: 3% 0;
+}
+.recipes .txt-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recipes .txt-container,
+.category-txt,
+.recipes .img-container {
+  width: 50%;
+}
+
+.green-line {
+  border-bottom: 3px solid #64a604;
+  width: 40px;
+}
+
+.click-me {
+  background: #64a604;
+  color: white;
+  font-family: "raleway";
+  text-transform: uppercase;
+  padding: 13px 27px;
+  border: 2px solid transparent;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.click-me:hover {
+  background: white;
+  color: #64a604;
+  border: 2px solid #64a604;
+}
+
+.img-txt-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 footer {
   background: #333333;
   font-size: 13px;
   color: #999999;
 }
 
-h3 {
+footer h3 {
   font-family: "raleway";
   font-weight: bold;
-  text-transform: uppercase;
   font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  text-transform: uppercase;
   color: white;
   margin: 0;
   padding-bottom: 3%;
