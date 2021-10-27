@@ -290,11 +290,6 @@ header a:focus {
   color: #64a604;
 }
 
-header a::after:hover,
-header a::after:focus {
-  background-color: #2e2e2e;
-}
-
 h1 {
   font-size: 46px;
   line-height: 24px;
@@ -423,6 +418,30 @@ h2 {
   display: flex;
 }
 
+.category-txt {
+  color: #333333;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  padding-left: 5%;
+  padding-top: 2%;
+  background: #999999;
+}
+.category-txt h3 {
+  color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.category {
+  width: 100%;
+}
+
+.side-icon {
+  font-size: 30px;
+  margin-left: -20px;
+}
+
 footer {
   background: #333333;
   font-size: 13px;
@@ -519,4 +538,5 @@ footer button {
 
 .polar {
   color: #64a604;
+  text-transform: uppercase;
 }

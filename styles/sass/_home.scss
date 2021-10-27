@@ -53,3 +53,27 @@ h2{
 .img-txt-container{
   display: flex;
 }
+
+.category-txt{
+  color: $black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  padding-left: 5%;
+  padding-top: 2%;;
+  background: $brown-grey;
+  h3{
+    color: $black-two;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+}
+
+.category{
+  width: 100%;
+}
+
+.side-icon{
+  font-size: 30px;
+  margin-left: -20px;
+}

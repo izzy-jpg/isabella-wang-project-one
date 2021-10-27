@@ -22,11 +22,6 @@ header a:focus{
   color: $green;
 }
 
-header a::after:hover,
-header a::after:focus{
-  background-color: $black-two;
-}
-
 h1{
   font-size: 46px;
   line-height: 24px;
