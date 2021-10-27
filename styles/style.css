@@ -369,6 +369,8 @@ h3 {
   text-transform: uppercase;
   font-size: 18px;
   color: white;
+  margin: 0;
+  padding-bottom: 3%;
 }
 
 .footer-content {
@@ -378,6 +380,7 @@ h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 5% 0;
 }
 
 .footer-contact,
@@ -391,10 +394,15 @@ footer .logo {
   color: #64a604;
 }
 
+.line {
+  border-bottom: 1px solid #999999;
+}
+
 .subscribe form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 5%;
 }
 
 .subscribe-email {

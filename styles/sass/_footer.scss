@@ -10,11 +10,14 @@ h3{
   text-transform: uppercase;
   font-size: 18px;
   color: white;
+  margin: 0;
+  padding-bottom: 3%;
 }
 
 .footer-content{
   display: flex;
   justify-content: space-between;
+  padding: 5% 0;
 }
 
 .footer-contact,
@@ -28,8 +31,13 @@ footer .logo{
   color: $green;
 }
 
+.line{
+  border-bottom: 1px solid $brown-grey;
+}
+
 .subscribe form{
   display: flex;
+  padding-bottom: 5%;
 }
 
 .subscribe-email{
