@@ -118,3 +118,8 @@ h2{
 .new-line{
   display: block;
 }
+
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

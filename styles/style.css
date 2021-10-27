@@ -501,6 +501,11 @@ h2 {
   display: block;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 footer {
   background: #333333;
   font-size: 13px;
