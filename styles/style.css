@@ -364,9 +364,6 @@ h2 {
 
 .recipes p {
   color: #333333;
-  width: 70%;
-  text-align: center;
-  padding: 3% 0;
 }
 .recipes .txt-container {
   display: -webkit-box;
@@ -382,6 +379,12 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.textbox-p {
+  width: 70%;
+  text-align: center;
+  padding: 3% 0;
 }
 
 .recipes .txt-container,
@@ -422,9 +425,9 @@ h2 {
   color: #333333;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-  padding-left: 5%;
+  padding-right: 3%;
   padding-top: 2%;
-  background: #999999;
+  background: #e6e6e6;
 }
 .category-txt h3 {
   color: #2e2e2e;
@@ -435,11 +438,15 @@ h2 {
 
 .category {
   width: 100%;
+  padding-left: 20%;
+}
+.category p {
+  width: 100%;
 }
 
 .side-icon {
   font-size: 30px;
-  margin-left: -20px;
+  margin-left: -30px;
 }
 
 footer {
