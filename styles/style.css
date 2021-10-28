@@ -516,7 +516,7 @@ h2 {
 }
 .testimonial p {
   font-style: italic;
-  width: 44%;
+  width: 65%;
   text-align: center;
   padding-top: 1%;
 }
@@ -541,6 +541,7 @@ h2 {
 .quote {
   position: relative;
   margin-bottom: 5%;
+  font-size: 24px;
 }
 
 .open-quote,
@@ -581,6 +582,11 @@ h2 {
 
 .arrow:hover {
   opacity: 1;
+}
+
+.recipe-title h2 {
+  font-size: 46px;
+  letter-spacing: 1.1px;
 }
 
 footer {
