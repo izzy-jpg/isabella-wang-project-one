@@ -248,6 +248,10 @@ body {
   letter-spacing: 0.3px;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 li {
   list-style: none;
 }
@@ -368,6 +372,9 @@ h2 {
 
 .recipes p {
   color: #333333;
+}
+.recipes h3 {
+  font-size: 16px;
 }
 .recipes .txt-container {
   display: -webkit-box;
@@ -761,9 +768,43 @@ h4 {
 
 .leave-a-comment {
   color: #999999;
+  margin-bottom: 10%;
 }
 .leave-a-comment h3 {
   color: #2e2e2e;
+}
+.leave-a-comment p {
+  font-style: italic;
+}
+
+.comment-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 15px;
+}
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  font-family: "lora";
+  padding: 15px;
+}
+
+.comment-box {
+  grid-column-start: span 3;
+  margin-bottom: 15px;
+}
+
+textarea {
+  height: 100%;
+  resize: none;
+}
+
+button.click-me {
+  display: block;
 }
 
 footer {

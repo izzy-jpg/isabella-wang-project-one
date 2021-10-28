@@ -232,21 +232,21 @@
           <!-- /image -->
           <div class="comment-text">
             <div class="comment-content">
-            <div class="name">
-              <h5>Brian Hudson</h5>
-              <p>Web developer</p>
+              <div class="name">
+                <h5>Brian Hudson</h5>
+                <p>Web developer</p>
+              </div>
+              <!-- /name -->
+              <p>
+                Pea horseradish azuki bean lettuce avocado asparagus okra.
+                Kohlrabi radish okra azuki bean corn fava bean mustard tigernut
+                jicama green bean celtuce collard greens avocado quandong fennel
+                gumbo black-eyed pea. Grape silver beet watercress potato
+                tigernut corn groundnut.
+              </p>
             </div>
-            <!-- /name -->
-            <p>
-              Pea horseradish azuki bean lettuce avocado asparagus okra.
-              Kohlrabi radish okra azuki bean corn fava bean mustard tigernut
-              jicama green bean celtuce collard greens avocado quandong fennel
-              gumbo black-eyed pea. Grape silver beet watercress potato
-              tigernut corn groundnut.
-            </p>
-          </div>
-          <!-- /comment-content -->
-          <p class="comment-time">Jul 17, 2015 at 15 hours ago</p>
+            <!-- /comment-content -->
+            <p class="comment-time">Jul 17, 2015 at 15 hours ago</p>
           </div>
           <!-- /comment-text -->
         </div>
@@ -259,27 +259,30 @@
           <h3>Leave a comment</h3>
           <p>Your email address will not be published. Required fields are marked *</p>
         </div>
-        <div class="comment-name">
-          <input type="text" name="cname" id="cname" placeholder="Name" required >
-          <label for="cname" class="sr-only">Enter your name</label>
+        <div class="comment-form">
+          <div class="comment-name">
+            <input type="text" name="cname" id="cname" placeholder="Name *" required>
+            <label for="cname" class="sr-only">Enter your name</label>
+          </div>
+          <!-- /comment-name -->
+          <div class="email">
+            <input type="email" name="email" class="email" id="email" placeholder="Email *" required>
+            <label for="email" class="sr-only">Enter your email</label>
+          </div>
+          <!-- /email -->
+          <div class="website">
+            <input type="text" name="website" class="website" id="website" placeholder="Your website">
+            <label for="website" class="sr-only">Enter your website</label>
+          </div>
+          <!-- /website -->
+          <div class="comment-box">
+            <textarea name="comment-box" id="comment-box" placeholder="Comment *" required></textarea>
+            <label for="comment-box" class="sr-only">Enter your comment</label>
+          </div>
+          <!-- /comment-box -->
         </div>
-        <!-- /comment-name -->
-        <div class="email">
-          <input type="email" name="email" class="email" id="email" placeholder="Email" required>
-          <label for="email" class="sr-only">Enter your email</label>
-        </div>
-        <!-- /email -->
-        <div class="website">
-          <input type="text" name="website" class="website" id="website" placeholder="Your website">
-          <label for="website" class="sr-only">Enter your website</label>
-        </div>
-        <!-- /website -->
-        <div class="comment-box">
-          <input type="textarea" name="comment-box" id="comment-box" class="comment-box" placeholder="Comment">
-          <label for="comment-box" class="sr-only">Enter your comment</label>
-        </div>
-        <!-- comment-box -->
-        <button class="submit">Submit comment</button>
+        <!-- /comment-form -->
+        <button class="submit click-me">Submit comment</button>
       </form>
     </section>
     <!-- /comment-section -->
@@ -335,7 +338,8 @@
     </div>
     <!-- /footer-content /wrapper-->
     <div class="copyright">
-      <p class="wrapper">Copyrights <i class="far fa-copyright"></i> 2015 by <span class="polar">Polar</span>. All Rights Reserved.</p>
+      <p class="wrapper">Copyrights <i class="far fa-copyright"></i> 2015 by <span class="polar">Polar</span>. All
+        Rights Reserved.</p>
     </div>
     <!-- /copyright-->
   </footer>
