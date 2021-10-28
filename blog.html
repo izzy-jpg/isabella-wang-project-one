@@ -138,6 +138,7 @@
     </section>
     <!-- /author -->
     <section class="related-posts wrapper">
+      <div class="line"></div>
       <h3>Related posts</h3>
       <div class="related-posts2">
         <div class="related">
@@ -196,29 +197,32 @@
       <div class="line"></div>
     </section>
     <!-- /related-posts -->
-    <section class="comment-section">
+    <section class="comment-section wrapper">
       <div class="comments">
-        <h3>02 comments</h3>
+        <h3 class="comment-num">02 comments</h3>
         <div class="comment">
           <div class="image">
             <img src="./assets/blog-6.jpeg" alt="commenter profile photo" />
           </div>
           <!-- /image -->
           <div class="comment-text">
-            <div class="name">
-              <h5>Lucatony Avaro</h5>
-              <p>Web developer</p>
+            <div class="comment-content">
+              <div class="name">
+                <h5>Lucatony Avaro</h5>
+                <p>Web developer</p>
+              </div>
+              <!-- /name -->
+              <p>
+                Celery quandong swiss chard chicory earthnut pea potato. Salsify
+                taro catsea garlic gram celery bitterleaf wattle seed collard
+                greens nori. Grape wattle seed kombu beetroot horseradish carrot
+                squash brussels sprout chard.
+              </p>
             </div>
-            <!-- /name -->
-            <p>
-              Celery quandong swiss chard chicory earthnut pea potato. Salsify
-              taro catsea garlic gram celery bitterleaf wattle seed collard
-              greens nori. Grape wattle seed kombu beetroot horseradish carrot
-              squash brussels sprout chard.
-            </p>
+            <!-- /comment-content -->
+            <p class="comment-time">Jul 17, 2015 at 15 hours ago</p>
           </div>
           <!-- /comment-text -->
-          <p class="comment-time">July 17, 2015 at 15 hours ago</p>
         </div>
         <!-- /comment -->
         <div class="comment">
@@ -227,6 +231,7 @@
           </div>
           <!-- /image -->
           <div class="comment-text">
+            <div class="comment-content">
             <div class="name">
               <h5>Brian Hudson</h5>
               <p>Web developer</p>
@@ -240,30 +245,37 @@
               tigernut corn groundnut.
             </p>
           </div>
+          <!-- /comment-content -->
+          <p class="comment-time">Jul 17, 2015 at 15 hours ago</p>
+          </div>
           <!-- /comment-text -->
-          <p class="comment-time">July 17, 2015 at 15 hours ago</p>
         </div>
         <!-- /comment -->
       </div>
       <!-- /comments -->
+
       <form action="#" class="leave-a-comment">
+        <div class="comment-instructions">
+          <h3>Leave a comment</h3>
+          <p>Your email address will not be published. Required fields are marked *</p>
+        </div>
         <div class="comment-name">
-          <input type="text" name="cname" id="cname" required>Name
+          <input type="text" name="cname" id="cname" placeholder="Name" required >
           <label for="cname" class="sr-only">Enter your name</label>
         </div>
         <!-- /comment-name -->
         <div class="email">
-          <input type="email" name="email" class="email" id="email" required>Email
+          <input type="email" name="email" class="email" id="email" placeholder="Email" required>
           <label for="email" class="sr-only">Enter your email</label>
         </div>
         <!-- /email -->
         <div class="website">
-          <input type="text" name="website" class="website" id="website">Your website
+          <input type="text" name="website" class="website" id="website" placeholder="Your website">
           <label for="website" class="sr-only">Enter your website</label>
         </div>
         <!-- /website -->
         <div class="comment-box">
-          <input type="textarea" name="comment-box" id="comment-box" class="comment-box">Comment
+          <input type="textarea" name="comment-box" id="comment-box" class="comment-box" placeholder="Comment">
           <label for="comment-box" class="sr-only">Enter your comment</label>
         </div>
         <!-- comment-box -->

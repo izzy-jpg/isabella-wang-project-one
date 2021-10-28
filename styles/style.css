@@ -598,7 +598,8 @@ a {
   color: #2e2e2e;
 }
 
-h3, h4 {
+h3,
+h4 {
   font-family: "raleway";
   text-transform: uppercase;
 }
@@ -670,8 +671,8 @@ h3, h4 {
 }
 
 .related-posts .line {
-  margin: 5% 0;
-  width: 80%;
+  margin: 3% 0;
+  width: 100%;
 }
 
 .related-posts h4 {
@@ -695,6 +696,74 @@ h3, h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #999999;
+}
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3%;
+}
+.comment h5 {
+  font-family: "raleway";
+  font-size: 14px;
+  margin: 0;
+  color: #2e2e2e;
+}
+.comment h5::after {
+  content: "-";
+  padding: 0 5px;
+}
+.comment .image {
+  width: 7%;
+}
+.comment .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.comment .name p {
+  margin: 0;
+}
+
+.comment-num {
+  margin: 3% 0;
+}
+
+.comment-text {
+  background-color: #e6e6e6;
+  padding: 20px;
+  width: 90%;
+  position: relative;
+}
+
+.comment-text::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #e6e6e6;
+}
+
+.comment-time {
+  font-family: "raleway";
+  font-size: 11px;
+  color: #333333;
+}
+
+.leave-a-comment {
+  color: #999999;
+}
+.leave-a-comment h3 {
+  color: #2e2e2e;
 }
 
 footer {

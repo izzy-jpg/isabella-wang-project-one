@@ -8,7 +8,8 @@ a{
   color: $black-two;
 }
 
-h3,h4{
+h3,
+h4{
   font-family: $header-font;
   text-transform: uppercase;
 }
@@ -62,8 +63,8 @@ h3,h4{
 }
 
 .related-posts .line{
-  margin: 5% 0;
-  width: 80%;
+  margin: 3% 0;
+  width: 100%;
 }
 .related-posts{
   h4{
@@ -82,4 +83,66 @@ h3,h4{
 
 .related-links{
   display: flex;
+  color: $brown-grey;
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+  h5{
+    font-family: $header-font;
+    font-size: 14px;
+    margin: 0;
+    color: $black-two;
+  }
+  h5::after{
+    content: '-';
+    padding: 0 5px;
+  }
+  .image{
+  width: 7%;
+  }
+  .name{
+    display: flex;
+    p{
+      margin: 0;
+    }
+  }
+}
+
+.comment-num{
+  margin: 3% 0;
+}
+
+.comment-text{
+  background-color: lighten($color: $brown-grey, $amount: 30);
+  padding: 20px;
+  width: 90%;
+  position: relative;
+}
+
+.comment-text::before{
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right:10px solid lighten($color: $brown-grey, $amount: 30); 
+}
+
+.comment-time{
+  font-family: $header-font;
+  font-size: 11px;
+  color: $black;
+}
+
+.leave-a-comment{
+  color: $brown-grey;
+  h3{
+    color: $black-two;
+  }
 }
