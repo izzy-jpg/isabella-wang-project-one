@@ -25,6 +25,10 @@ img{
   display: block;
 }
 
+.line{
+  border-bottom: 1px solid $brown-grey;
+}
+
 @import "header";
 @import "home";
 @import "blog";
