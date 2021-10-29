@@ -18,26 +18,29 @@
   <header class="contact-header">
     <div class="top-bar">
       <h1 class="logo">Delicious</h1>
-      <p class="bars"><i class="fas fa-bars"></i></p>
-      <nav class="top-nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#recipes">Recipes</a></li>
-          <li><a href="#">Nutrition</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="contact.html" class="you-are-here">Contact</a></li>
-          <li class="cart">
-            <a href="#"><i class="fas fa-shopping-bag"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fas fa-search"></i></a>
-          </li>
-        </ul>
-      </nav>
+      <div class="dropdown">
+        <p class="bars"><i class="fas fa-bars"></i></p>
+        <nav class="top-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#recipes">Recipes</a></li>
+            <li><a href="#">Nutrition</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="contact.html" class="you-are-here">Contact</a></li>
+            <li class="cart">
+              <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-search"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /dropdown -->
     </div>
-    <!-- /top-nav -->
+    <!-- /top-bar -->
   </header>
   <!-- header ends -->
   <!-- main begins -->
@@ -48,12 +51,12 @@
         <form action="#">
           <div class="form">
             <div class="contact-name">
-              <input type="text" name="your-name" id="your-name" placeholder="Your Name *" required/>
+              <input type="text" name="your-name" id="your-name" placeholder="Your Name *" required />
               <label for="your-name" class="sr-only">Enter your name</label>
             </div>
             <!-- /contact-name -->
             <div class="contact-email">
-              <input type="email" name="your-email" id="your-email" placeholder="Your Email *" required/>
+              <input type="email" name="your-email" id="your-email" placeholder="Your Email *" required />
               <label for="your-email" class="sr-only">Enter your email</label>
             </div>
             <!-- /contact-email -->

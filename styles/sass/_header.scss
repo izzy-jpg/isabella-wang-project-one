@@ -30,7 +30,8 @@ header a:focus{
   transition: all 0.4s ease-out;
 }
 
-.bars:hover{
+.bars:hover,
+.bars:focus{
   color: $green;
 }
 
