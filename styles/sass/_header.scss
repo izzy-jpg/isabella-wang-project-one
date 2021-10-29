@@ -24,6 +24,14 @@ header a:focus{
 
 .bars{
   display: none;
+  font-size: 40px;
+  margin: 0;
+  padding-right: 10%;
+  transition: all 0.4s ease-out;
+}
+
+.bars:hover{
+  color: $green;
 }
 
 h1{

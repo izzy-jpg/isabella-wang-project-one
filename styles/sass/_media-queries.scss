@@ -32,7 +32,19 @@
 }
 
 /* landscape phones and portrait tablets */
-@media (max-width: 767px){
+@media (max-width: 768px){
+
+  .top-bar{
+    flex-direction: row;
+  }
+
+  .bars{
+    display: block;
+  }
+
+  .top-nav{
+    display: none;
+  }
   .img-txt-container{
     flex-direction: column;
   }
