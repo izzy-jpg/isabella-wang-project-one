@@ -1041,6 +1041,24 @@ footer button {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
+  .img-category {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .img-category div.img-container {
+    width: 100%;
+  }
+
+  .category-txt {
+    width: 100%;
+    padding: 5%;
+  }
 }
 /* landscape tablet and small desktops */
 @media (max-width: 940px) {
@@ -1053,24 +1071,6 @@ footer button {
   }
   .recipes .txt-container p {
     margin-top: 0;
-  }
-
-  .img-category {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .img-category .img-container {
-    width: 100%;
-  }
-
-  .category-txt {
-    width: 100%;
-    padding: 5%;
   }
 
   .author-img {
