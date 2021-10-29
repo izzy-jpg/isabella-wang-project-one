@@ -1029,6 +1029,62 @@ footer button {
 /* landscape phones and down */
 /* smallest */
 /* landscape tablet and small desktops */
+@media (max-width: 940px) {
+  .top-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .recipes .img-container {
+    width: 70%;
+  }
+
+  .recipes .txt-container h2 {
+    margin-bottom: 0;
+  }
+  .recipes .txt-container p {
+    margin-top: 0;
+  }
+
+  .img-category {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .img-category .img-container {
+    width: 100%;
+  }
+
+  .category-txt {
+    width: 100%;
+    padding: 5%;
+  }
+}
 /* landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .img-txt-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .recipes .img-container {
+    width: 100%;
+  }
+
+  .img-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
 /* landscape phones and down */
 /* smallest */
