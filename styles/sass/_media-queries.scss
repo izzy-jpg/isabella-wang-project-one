@@ -112,11 +112,51 @@
 
 /* landscape phones and down */
 @media (max-width: 480px) {
+  .top-bar {
+    flex-direction: column;
+    padding-top: 15%;
+  }
+
+  .bars {
+    margin-right: 0;
+  }
+
+  .dropdown:hover .top-nav ul,
+  .dropdown:focus .top-nav ul {
+    top: 160px;
+    right: 135px;
+  }
+
+  .textbox-p {
+    width: 100%;
+  }
+
+  .recipes .txt-container {
+    width: 80%;
+  }
+
+  .category-txt {
+    grid-template-columns: 1fr;
+  }
+
+  .category {
+    padding: 3% 0% 3% 10%;
+  }
+
   .img-absolute {
     width: 70%;
   }
+
   .about .txt-container {
     width: 80%;
+  }
+
+  .quote {
+    font-size: 18px;
+  }
+
+  .open-quote {
+    left: -20%;
   }
 
   .left-right {
@@ -143,46 +183,21 @@
 
 /* smallest */
 @media (max-width: 320px) {
-  .top-bar {
-    flex-direction: column;
-    padding-top: 15%;
-  }
-
-  .bars {
-    margin-right: 0;
-  }
-
   .dropdown:hover .top-nav ul,
   .dropdown:focus .top-nav ul {
     top: 90px;
     right: 60px;
   }
 
-  .textbox-p {
-    width: 100%;
-  }
 
-  .recipes .txt-container {
-    width: 80%;
-  }
-
-  .category-txt {
-    grid-template-columns: 1fr;
-  }
-
-  .category {
-    padding-left: 10%;
-  }
 
   .gallery {
     grid-template-columns: 1fr;
   }
 
-  .quote {
-    font-size: 18px;
-  }
-
-  .open-quote {
-    left: -20%;
+  .footer-contact,
+  .footer-recent,
+  .subscribe {
+    width: 90%;
   }
 }
