@@ -271,6 +271,10 @@ textarea {
   resize: none;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .block {
   display: block;
 }
@@ -312,6 +316,10 @@ h1 {
   margin-top: 0;
   padding-left: 3%;
   padding-top: 3%;
+}
+
+.you-are-here {
+  color: #64a604;
 }
 
 .cart a {
@@ -839,13 +847,34 @@ button.click-me {
      -moz-column-gap: 20px;
           column-gap: 20px;
   row-gap: 15px;
+  margin-bottom: 20px;
+  margin-top: 5%;
 }
 .form input, .form textarea {
   width: 100%;
   background: #e6e6e6;
   border: none;
   color: #4d4d4d;
-  padding: 10px;
+  padding: 15px;
+}
+
+.send-button {
+  font-family: "raleway";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #64a604;
+  background: white;
+  border: none;
+}
+.send-button i {
+  font-size: 18px;
+  padding-left: 3px;
+  padding-top: 2px;
+}
+
+.send-button:hover,
+.send-button:focus {
+  color: #999999;
 }
 
 .contact-subject,

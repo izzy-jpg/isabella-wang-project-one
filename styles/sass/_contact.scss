@@ -17,13 +17,34 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
   row-gap: 15px;
+  margin-bottom: 20px;
+  margin-top: 5%;
   input,textarea{
     width: 100%;
     background: lighten($color: $brown-grey, $amount: 30);
     border: none;
     color: darken($color: $brown-grey, $amount: 30);
-    padding: 10px;
+    padding: 15px;
   }
+}
+
+.send-button{
+  font-family: $header-font;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $green;
+  background: white;
+  border: none;
+  i{
+    font-size: 18px;
+    padding-left: 3px;
+    padding-top: 2px;
+  }
+}
+
+.send-button:hover,
+.send-button:focus{
+  color: $brown-grey;
 }
 
 .contact-subject,

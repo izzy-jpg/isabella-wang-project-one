@@ -26,7 +26,7 @@
           <li><a href="#">Nutrition</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="#">Shop</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="you-are-here">Contact</a></li>
           <li class="cart">
             <a href="#"><i class="fas fa-shopping-bag"></i></a>
           </li>
@@ -47,12 +47,12 @@
         <form action="#">
           <div class="form">
             <div class="contact-name">
-              <input type="text" name="your-name" id="your-name" placeholder="Your Name" />
+              <input type="text" name="your-name" id="your-name" placeholder="Your Name *" required/>
               <label for="your-name" class="sr-only">Enter your name</label>
             </div>
             <!-- /contact-name -->
             <div class="contact-email">
-              <input type="email" name="your-email" id="your-email" placeholder="Your Email" />
+              <input type="email" name="your-email" id="your-email" placeholder="Your Email *" required/>
               <label for="your-email" class="sr-only">Enter your email</label>
             </div>
             <!-- /contact-email -->
@@ -62,7 +62,7 @@
             </div>
             <!-- /contact-subject -->
             <div class="contact-message">
-              <textarea name="your-message" id="your-message" placeholder="Message" rows="8"></textarea>
+              <textarea name="your-message" id="your-message" placeholder="Message *" rows="8" required></textarea>
               <label for="your-message" class="sr-only">Enter your message</label>
             </div>
             <!-- /contact-message -->
