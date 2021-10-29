@@ -308,6 +308,10 @@ header a:focus {
   color: #64a604;
 }
 
+.bars {
+  display: none;
+}
+
 h1 {
   font-size: 46px;
   line-height: 24px;
@@ -1019,3 +1023,12 @@ footer button {
   color: #64a604;
   text-transform: uppercase;
 }
+
+/* landscape tablet and small desktops */
+/* landscape phones and portrait tablets */
+/* landscape phones and down */
+/* smallest */
+/* landscape tablet and small desktops */
+/* landscape phones and portrait tablets */
+/* landscape phones and down */
+/* smallest */

@@ -22,6 +22,10 @@ header a:focus{
   color: $green;
 }
 
+.bars{
+  display: none;
+}
+
 h1{
   font-size: 46px;
   line-height: 24px;
@@ -78,4 +82,3 @@ h1{
 .contact-header{
   background-image: url(../assets/contact-1.jpeg);
 }
-
