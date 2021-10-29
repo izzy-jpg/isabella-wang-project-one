@@ -1,10 +1,13 @@
 // media queries
-/* landscape tablet and small desktops */
-@media (max-width: 940px) {
+
+@media (max-width: 1215px) {
   .top-bar {
     flex-direction: column;
   }
+}
 
+/* landscape tablet and small desktops */
+@media (max-width: 940px) {
   .recipes .img-container {
     width: 70%;
   }
@@ -30,7 +33,34 @@
     width: 100%;
     padding: 5%;
   }
+
+  .author-img {
+    width: 48%;
+  }
+
+  .related-posts2 {
+    flex-wrap: wrap;
+  }
+
+  .related {
+    width: 45%;
+  }
+
+  .comment .image {
+    width: 15%;
+  }
+
+  .comment-text {
+    width: 80%;
+  }
+
+  .contact-me{
+    padding-right: 20%;
+  }
 }
+
+
+
 
 /* landscape phones and portrait tablets */
 @media (max-width: 768px) {
@@ -88,6 +118,19 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .comment-form {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 4fr;
+  }
+
+  .website {
+    grid-column-start: span 2;
+  }
+
+  .comment-box {
+    grid-column-start: span 2;
+  }
+
   .footer-content {
     flex-direction: column;
     align-items: center;
@@ -109,6 +152,26 @@
     }
   }
 }
+
+@media (max-width: 700px){
+  .contact-main{
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .contact-form,
+  .contact-details{
+    width: 100%;
+    padding: 10%;
+  }
+
+  .contact-me{
+    padding: 0
+  }
+}
+
+
+
 
 /* landscape phones and down */
 @media (max-width: 480px) {
@@ -163,6 +226,59 @@
     width: 50%;
   }
 
+  .recipe-title {
+    text-align: center;
+  }
+
+  .posted-by {
+    justify-content: center;
+  }
+
+  .tags {
+    flex-wrap: wrap;
+  }
+
+  .author-container {
+    flex-direction: column;
+  }
+
+  .author-img,
+  .author-txt {
+    width: 100%;
+    margin: 5% 0;
+  }
+
+  .related-posts2 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .related {
+    width: 100%;
+    margin: 5% 0;
+  }
+
+  .comment-form {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 4fr;
+  }
+
+  .website,
+  .comment-box {
+    grid-column-start: span 1;
+  }
+
+  .form{
+    grid-template-columns: 1fr;
+  }
+
+  .contact-name,
+  .contact-email,
+  .contact-subject,
+  .contact-message{
+    grid-column-start: span 1;
+  }
+
   footer {
     h3 {
       margin-top: 20px;
@@ -181,6 +297,9 @@
   }
 }
 
+
+
+
 /* smallest */
 @media (max-width: 320px) {
   .dropdown:hover .top-nav ul,
@@ -189,10 +308,27 @@
     right: 60px;
   }
 
-
-
   .gallery {
     grid-template-columns: 1fr;
+  }
+
+  .posted-by {
+    flex-direction: column;
+    .add-divider::after {
+      display: none;
+    }
+  }
+
+  .comment .image{
+    display: none;
+  }
+
+  .comment-text{
+    width: 100%;
+  }
+
+  .comment-text::before{
+    display: none;
   }
 
   .footer-contact,
