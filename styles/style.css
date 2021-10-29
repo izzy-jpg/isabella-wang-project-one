@@ -1366,6 +1366,10 @@ footer button {
     width: 100%;
   }
 
+  .subscribe-email {
+    width: 100%;
+  }
+
   .subscribe form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
