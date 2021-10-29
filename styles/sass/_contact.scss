@@ -1,0 +1,67 @@
+.contact-main{
+  display: flex;
+  height: 100vh;
+}
+
+.contact-form{
+  width: 60%;
+  padding-left: 15%;
+  padding-right: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 15px;
+  input,textarea{
+    width: 100%;
+    background: lighten($color: $brown-grey, $amount: 30);
+    border: none;
+    color: darken($color: $brown-grey, $amount: 30);
+    padding: 10px;
+  }
+}
+
+.contact-subject,
+.contact-message{
+  grid-column-start: span 2;
+}
+
+.contact-details{
+  width: 40%;
+  background-color: lighten($color: $brown-grey, $amount: 30);
+  p{
+    color: $black;
+  }
+}
+
+.contact-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 5% 40% 5% 5%;
+}
+
+.weekdays{
+  color: $black-two;
+  text-transform: uppercase;
+  font-family: $header-font;
+}
+
+.italicize{
+  font-style: italic;
+}
+
+.working-hours p{
+  margin: 0;
+}
+
+.working-hours .italicize,
+.contact-info p{
+  color: darken($color: $brown-grey, $amount: 30);
+}

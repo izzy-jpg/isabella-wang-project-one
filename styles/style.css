@@ -265,6 +265,12 @@ img {
   width: 100%;
 }
 
+textarea {
+  height: 100%;
+  width: 100%;
+  resize: none;
+}
+
 .block {
   display: block;
 }
@@ -599,6 +605,7 @@ h2 {
   font-size: 46px;
   letter-spacing: 1.1px;
   margin-bottom: 0;
+  margin-top: 5%;
 }
 
 a {
@@ -798,13 +805,94 @@ h4 {
   margin-bottom: 15px;
 }
 
-textarea {
-  height: 100%;
-  resize: none;
-}
-
 button.click-me {
   display: block;
+}
+
+.contact-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.contact-form {
+  width: 60%;
+  padding-left: 15%;
+  padding-right: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 15px;
+}
+.form input, .form textarea {
+  width: 100%;
+  background: #e6e6e6;
+  border: none;
+  color: #4d4d4d;
+  padding: 10px;
+}
+
+.contact-subject,
+.contact-message {
+  grid-column-start: span 2;
+}
+
+.contact-details {
+  width: 40%;
+  background-color: #e6e6e6;
+}
+.contact-details p {
+  color: #333333;
+}
+
+.contact-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  padding: 5% 40% 5% 5%;
+}
+
+.weekdays {
+  color: #2e2e2e;
+  text-transform: uppercase;
+  font-family: "raleway";
+}
+
+.italicize {
+  font-style: italic;
+}
+
+.working-hours p {
+  margin: 0;
+}
+
+.working-hours .italicize,
+.contact-info p {
+  color: #4d4d4d;
 }
 
 footer {
