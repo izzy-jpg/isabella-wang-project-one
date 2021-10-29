@@ -231,7 +231,11 @@
   }
 
   .posted-by {
+    flex-direction: column;
     justify-content: center;
+    .add-divider::after {
+      display: none;
+    }
   }
 
   .tags {
@@ -310,13 +314,6 @@
 
   .gallery {
     grid-template-columns: 1fr;
-  }
-
-  .posted-by {
-    flex-direction: column;
-    .add-divider::after {
-      display: none;
-    }
   }
 
   .comment .image{

@@ -1291,9 +1291,16 @@ footer button {
   }
 
   .posted-by {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .posted-by .add-divider::after {
+    display: none;
   }
 
   .tags {
@@ -1377,16 +1384,6 @@ footer button {
 
   .gallery {
     grid-template-columns: 1fr;
-  }
-
-  .posted-by {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .posted-by .add-divider::after {
-    display: none;
   }
 
   .comment .image {
