@@ -914,9 +914,9 @@ button.click-me {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   height: 100%;
   padding: 5% 40% 5% 5%;
 }
@@ -1098,8 +1098,7 @@ footer button {
     padding-right: 20%;
   }
 }
-/* landscape phones and portrait tablets */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .top-bar {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1135,7 +1134,9 @@ footer button {
     right: 0;
     bottom: 0;
   }
-
+}
+/* landscape phones and portrait tablets */
+@media (max-width: 768px) {
   .img-txt-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

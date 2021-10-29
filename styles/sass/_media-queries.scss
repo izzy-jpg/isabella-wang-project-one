@@ -59,11 +59,7 @@
   }
 }
 
-
-
-
-/* landscape phones and portrait tablets */
-@media (max-width: 768px) {
+@media (max-width: 900px){
   .top-bar {
     flex-direction: row;
   }
@@ -91,6 +87,11 @@
     right: 0;
     bottom: 0;
   }
+}
+
+
+/* landscape phones and portrait tablets */
+@media (max-width: 768px) {
 
   .img-txt-container {
     flex-direction: column;
