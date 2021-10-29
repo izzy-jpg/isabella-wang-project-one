@@ -835,7 +835,7 @@ button.click-me {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  height: 100%;
 }
 
 .contact-form {
@@ -1223,7 +1223,6 @@ footer button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 100%;
   }
 
   .contact-form,
