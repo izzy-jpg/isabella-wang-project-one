@@ -47,7 +47,7 @@ footer .logo{
   padding-left: 5%;
   height: 40px;
   display: block;
-  flex-grow: 1;
+  width: calc(100% - 40px);
 }
 
 footer button{
