@@ -388,6 +388,32 @@ h1 {
   background-image: url(../assets/contact-1.jpeg);
 }
 
+.search {
+  position: relative;
+}
+
+.search-bar {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: -120px;
+  bottom: -40px;
+  width: 150px;
+}
+.search-bar input {
+  color: #999999;
+  padding-left: 10px;
+  height: 30px;
+  width: 120px;
+}
+.search-bar button {
+  background-color: #64a604;
+  border: none;
+  color: white;
+  width: 30px;
+}
+
 h2 {
   font-family: "raleway";
   font-weight: 700;

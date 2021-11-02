@@ -91,3 +91,29 @@ h1{
 .contact-header{
   background-image: url(../assets/contact-1.jpeg);
 }
+
+// search-bar styling (non-responsive)
+
+.search{
+  position: relative;
+}
+
+.search-bar{
+  position: absolute;
+  display: flex;
+  left: -120px;
+  bottom: -40px;
+  width: 150px;
+  input{
+  color: $brown-grey;
+  padding-left: 10px;
+  height: 30px;
+  width: 120px;
+  }
+  button{
+    background-color: $green;
+    border: none;
+    color: white;
+    width: 30px;
+  }
+}
